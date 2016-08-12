@@ -1,0 +1,30 @@
+{
+  "name": "generate-slug",
+  "version": "1.0.0",
+  "description": "Generate a slug from a string in order to delete spaces",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguhRuiz/generate-slug.git"
+  },
+  "keywords": [
+    "slug",
+    "generator",
+    "generate",
+    "split",
+    "username",
+    "nickname"
+  ],
+  "author": "Miguh Ruiz <miguhruiz@gmail.com> (https://miguhruiz.xyz/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MiguhRuiz/generate-slug/issues"
+  },
+  "homepage": "https://github.com/MiguhRuiz/generate-slug#readme",
+  "devDependencies": {
+    "ava": "^0.16.0"
+  }
+}
