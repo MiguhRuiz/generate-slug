@@ -1,6 +1,9 @@
-function toSlug(s) {
+'use strict'
+class Slug {
+  toSlug(s) {
     const c = s.split(" ").join("-")
     return c
   }
+}
 
-module.exports = toSlug
+module.exports = Slug
