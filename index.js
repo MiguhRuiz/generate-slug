@@ -4,6 +4,10 @@ class Slug {
     const c = s.split(" ").join("-")
     return c
   }
+  toString(s) {
+    const c = s.split("-").join(" ")
+    return c
+  }
 }
 
 module.exports = Slug
