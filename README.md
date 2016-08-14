@@ -25,9 +25,12 @@ $ npm install generate-slug
 ## Ussage
 
 ```js
-import slug from 'generate-slug'
+import generateSlug from 'generate-slug'
+
+const slug = new generateSlug()
+
 const string = "This is an awesome string that I want to make an slug"
-const s = slug(string) // 'This-is-an-awesome-string-that-I-want-to-make-an-slug'
+const s = slug.toSlug(string) // 'This-is-an-awesome-string-that-I-want-to-make-an-slug'
 ```
 
 ## License MIT
