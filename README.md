@@ -2,6 +2,8 @@
 
 This module generates a slug from a string in order to delete spaces.
 
+**Build Status:** ![](https://circleci.com/gh/MiguhRuiz/generate-slug.png)
+
 ## Table of Concepts
 
 - [generate-slug](#generate-slug)
