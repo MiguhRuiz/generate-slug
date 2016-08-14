@@ -9,7 +9,9 @@ This module generates a slug from a string in order to delete spaces.
 - [generate-slug](#generate-slug)
 	- [Table of Concepts](#table-of-concepts)
 	- [Installation](#installation)
-	- [Ussage](#ussage)
+	- [Available resources and methods(API)](#available-resources-and-methodsapi)
+		- [slug.toSlug()](#slugtoslug)
+		- [slug.toString()](#slugtostring)
 	- [License MIT](#license-mit)
 
 ## Installation
@@ -22,7 +24,9 @@ $ npm install generate-slug
 
 ```
 
-## Ussage
+## Available resources and methods(API)
+
+#### slug.toSlug()
 
 ```js
 import generateSlug from 'generate-slug'
@@ -31,6 +35,17 @@ const slug = new generateSlug()
 
 const string = "This is an awesome string that I want to make an slug"
 const s = slug.toSlug(string) // 'This-is-an-awesome-string-that-I-want-to-make-an-slug'
+```
+
+#### slug.toString()
+
+```js
+import generateSlug from 'generate-slug'
+
+const slug = new generateSlug()
+
+const string = "This-is-an-awesome-string-that-I-want-to-make-an-slug"
+const s = slug.toString(string) // 'This is an awesome string that I want to make an slug'
 ```
 
 ## License MIT
